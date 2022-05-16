@@ -51,8 +51,6 @@ class bookService {
     };
 
     static bookUpdate = async (code, id) => {
-        console.log(code)
-        console.log(id)
 
         const result = await typeorm.connection
         .createQueryBuilder()
