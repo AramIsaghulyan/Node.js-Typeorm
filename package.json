@@ -1,0 +1,22 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "dev": "nodemon ./bin/www.js"
+  },
+  "author": "Aram Isaghulyan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.2.41"
+  }
+}
