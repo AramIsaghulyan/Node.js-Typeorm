@@ -1,8 +1,25 @@
+/**
+ * Module dependencies.
+ */
+
 const http = require('http');
 const app = require('../src/app');
 
+/**
+ * Get port from environment and store in Express.
+ */
+
 const port = process.env.PORT || 3000;
+
+/**
+ * Create HTTP server.
+ */
+
 const server = http.createServer(app);
+
+/**
+ * Listen on provided port.
+ */
 
 server.listen(port, () => {
     console.log(`Server is running in port ${port}`);

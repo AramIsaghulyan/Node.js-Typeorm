@@ -1,3 +1,4 @@
+// Standard requires
 const bookModel = require('../database/model/bookModel');
 const typeorm = require('../database/typeorm');
 
