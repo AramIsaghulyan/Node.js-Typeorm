@@ -15,18 +15,6 @@ class Utils {
         this._config = _.merge(defaultConfig, enviromentConfig);
     }
 
-    static getConfig() {
-
-        if (this._config == undefined) {
-            this.loadConfig();
-        }
-        return this._config;
-    }
-
-    static getConfigSubParameter(param, key, value) {
-        return this.getConfigParameter(param).find(elem => elem[key] == value);
-    }
-
     static getConfigParameter(param) {
         
         if (this._config == undefined) {
